@@ -4,7 +4,7 @@ This Python script performs an in-depth analysis of crime data in San Francisco,
 
 # Onboarding
 1. Copy the repo on your local machine
-2.  Download the data form the website below and save it in the folder `data` with name `SF_Crime_Reports.csv`
+2.  Download the data from the website provided in the section *Data Acquisition* and save it in the folder `data` with name `SF_Crime_Reports.csv`
 3. First run model about predicting arrests in `arrests_random_forest.ipynb`. This model will generate a new csv file with cleaned data to use for the second model
 4. Run second model in`crime_hot_spots.ipynb` that predicts crime hotspot neighborhoods
 
