@@ -1,3 +1,26 @@
 daily_totals.csv
 data/SF_Crime_Reports.csv
 data/Alameda_Crime_Reports.csv
+data/SF_Crime_Report_cleaned.csv
+models/gb_model_Bayview.pkl
+models/gb_model_Central.pkl
+models/gb_model_Ingleside.pkl
+models/gb_model_Mission.pkl
+models/gb_model_Northern.pkl
+models/gb_model_Out of SF.pkl
+models/gb_model_Park.pkl
+models/gb_model_Richmond.pkl
+models/gb_model_Southern.pkl
+models/gb_model_Taraval.pkl
+models/gb_model_Tenderloin.pkl
+models/rf_model_Bayview.pkl
+models/rf_model_Central.pkl
+models/rf_model_Ingleside.pkl
+models/rf_model_Mission.pkl
+models/rf_model_Northern.pkl
+models/rf_model_Out of SF.pkl
+models/rf_model_Park.pkl
+models/rf_model_Richmond.pkl
+models/rf_model_Southern.pkl
+models/rf_model_Taraval.pkl
+models/rf_model_Tenderloin.pkl
