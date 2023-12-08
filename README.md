@@ -2,7 +2,14 @@
 
 This Python script performs an in-depth analysis of crime data in San Francisco, focusing on predictive modeling to identify patterns related to arrests. The script uses various libraries such as Pandas, NumPy, scikit-learn, Statsmodels, Folium, Seaborn, and Matplotlib for data manipulation, visualization, and machine learning.
 
+# Onboarding
+1. Copy the repo on your local machine
+2.  Download the data form the website below and save it in the folder `data` with name `SF_Crime_Reports.csv`
+3. First run model about predicting arrests in `arrests_random_forest.ipynb`. This model will generate a new csv file with cleaned data to use for the second model
+4. Run second model in`crime_hot_spots.ipynb` that predicts crime hotspot neighborhoods
+
 # Libraries Used
+#### Any dependencies can be installed by runing the first cell in each nobebook
 
 - Pandas & NumPy: For data manipulation and numerical computations.
 - scikit-learn: Provides tools for machine learning, including data splitting, classifiers, and model evaluation metrics.
@@ -17,6 +24,7 @@ This Python script performs an in-depth analysis of crime data in San Francisco,
 
 - Utilizes the Socrata client to fetch public data from "data.sfgov.org".
 - Downloads the first 2000 records of San Francisco crime data (dataset ID: "wg3w-h783") and converts them to a Pandas DataFrame.
+- Police crime data for San Francisco can be obtained from: https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-2018-to-Present/wg3w-h783
 
 2. Data Loading:
 
